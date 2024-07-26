@@ -1,0 +1,13 @@
+/* src/css/styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#globe-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #e3e4e6; /* Set background color for debugging */
+}
