@@ -67,7 +67,7 @@ function sampleImage({ u, v }, imageData) {
 
 // Load the map image and create dots
 let imageData;
-new THREE.ImageLoader().load('../images/map.png', (mapImage) => {
+new THREE.ImageLoader().load('./images/map.png', (mapImage) => {
   console.log('Image loaded', mapImage);
   imageData = getImageData(mapImage);
 
